@@ -1,7 +1,17 @@
-## Max Profit Algorithm
+## Python Problems
 
-Given the history of prices for a stock, find the optimal time to buy and sell one share.
+### Python Version
+- 3.6.4
 
+### Developer Setup
+``` sh
+python -m venv venv
+./venv/bin/activate
+pip install -r requirements.txt
+```
 
-## TODO
-This repository could turn into a collection of problems.
+### Running Tests
+```sh
+pip install nose
+nosetests
+```
